@@ -1,0 +1,44 @@
+#invoice-container {
+    margin: auto;
+    min-width: 30em;
+    max-width: 55em;
+}
+
+.details-right {
+    float: right;
+    width: 12em;
+}
+
+.invoice-info {
+    color: black;
+    margin-bottom: 0;
+    line-height: normal;
+    font-size: medium;
+}
+
+.from-container {
+
+}
+
+.invoice-muted {
+    color: black;
+    margin-bottom: 0;
+    line-height: normal;
+    font-size: small;
+}
+
+.invoice-items {
+    margin: 3em 0;
+}
+
+.invoice-items th {
+    padding: .1em .5em;
+}
+
+.invoice-items th:first-child {
+    width: 60%;
+}
+
+.total-price {
+    border-top: 3px solid #dee2e6 !important;
+}
