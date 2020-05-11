@@ -9,14 +9,19 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/invoice')
-def invoice():
+@app.route('/invoices')
+def invoices():
+    return render_template("invoices.html")
+
+
+@app.route('/invoice/<invoice_id>')
+def invoice(invoice_id):
     return render_template("invoice.html")
 
 
-@app.route('/about')
-def about():
-    return render_template("about.html")
+@app.route('/clients')
+def clients():
+    return render_template("clients.html")
 
 
 if __name__ == '__main__':

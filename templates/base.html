@@ -34,15 +34,19 @@
     <!-- Sidebar  -->
     <nav id="sidebar">
         <div class="sidebar-title sidebar-header">
-            <a class="h2" href="{{ url_for("index") }}"><img src="{{ url_for("static", filename="images/project_dan_title.jpg") }}" alt="ProjectDan" width="220"></a>
+            <a class="h2" href="{{ url_for("index") }}"><img
+                    src="{{ url_for("static", filename="images/project_dan_title.jpg") }}" alt="ProjectDan" width="220"></a>
         </div>
 
         <ul class="list-unstyled">
             <li class="active">
                 <a href="{{ url_for("index") }}">Home</a>
             </li>
-            <li class="">
-                <a href="{{ url_for("invoice") }}">Invoice</a>
+            <li>
+                <a href="{{ url_for("invoices") }}">Invoices</a>
+            </li>
+            <li>
+                <a href="{{ url_for("clients") }}">Clients</a>
             </li>
         </ul>
 
