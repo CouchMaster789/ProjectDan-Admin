@@ -29,5 +29,15 @@ def projects():
     return render_template("projects.html")
 
 
+@app.route('/blog_posts')
+def blog_posts():
+    return render_template("blog_posts.html")
+
+
+@app.route('/users')
+def users():
+    return render_template("users.html")
+
+
 if __name__ == '__main__':
     app.run()
